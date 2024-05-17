@@ -7,14 +7,7 @@ Look at the [Content documentation](https://content.nuxt.com/) to learn more.
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+bun install
 ```
 
 ## Development Server
@@ -22,15 +15,15 @@ pnpm install
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+bun dev # or `bun run dev`
 ```
 
 ## Production
 
-Build the application for production:
+Prerender the application for production:
 
 ```bash
-npm run build
+bun run generate
 ```
 
 Locally preview production build:
