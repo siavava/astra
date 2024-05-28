@@ -9,6 +9,12 @@
   },
   "dependencies": {
     "@nuxt/content": "^2.12.1",
-    "nuxt": "^3.11.2"
+    "nuxt": "^3.11.2",
+    "postprocessing": "^6.35.4",
+    "three": "^0.164.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.164.1",
+    "sass": "^1.77.2"
   }
 }
